@@ -48,7 +48,7 @@ input {
   padding:10px 0px;
 }
 
-.navbar-brand {
+#mainNav .navbar-brand, .navbar-brand {
   font-family: 'Kaushan Script', cursive;
   font-weight: 500;
   font-size: 32px;
