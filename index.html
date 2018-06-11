@@ -9,7 +9,7 @@
 		<meta name="author" content=""> 
 		<meta name="msvalidate.01" content="7B433389E12611D367C4F0B5E47F58F8" />
 
-		<title>SendCnC - Manufacturing CRM</title>
+		<title>KaizenDesk - Manufacturing CRM</title>
 
 		<!-- Bootstrap core CSS -->
 		<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -17,7 +17,9 @@
 		<!-- Custom fonts for this template -->
 		<link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 		<link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-		<link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Tinos" rel="stylesheet">
 		<link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
 
 		<!-- Plugin CSS -->
@@ -29,34 +31,35 @@
 		<link href="css/style.css" rel="stylesheet">
 
 		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108799949-1"></script>
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120668091-1"></script>
 		<script>
 			window.dataLayer = window.dataLayer || [];
 			function gtag(){dataLayer.push(arguments);}
 			gtag('js', new Date());
-		
-			gtag('config', 'UA-108799949-1');
+			gtag('config', 'UA-120668091-1');
 		</script>
-
 
 	</head>
 
 	<body id="page-top">
+		<div id="preloader">
+			<div id="status"> <img src="img/preloader.gif" height="64" width="64" alt=""> </div>
+		</div>
 
 		<!-- Navigation -->
 		<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
 			<div class="container">
-				<a class="navbar-brand js-scroll-trigger" href="#page-top"><i class="fa fa-paper-plane"></i> SendCnC</a>
+				<a class="navbar-brand js-scroll-trigger" href="#page-top">KaizenDesk</a>
 				<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
 				<div class="collapse navbar-collapse" id="navbarResponsive">
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item">
-							<a class="nav-link js-scroll-trigger" href="#pricing">Register</a>
+							<a class="nav-link js-scroll-trigger" href="#features">Features</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link js-scroll-trigger" href="#features">Features</a>
+							<a class="nav-link js-scroll-trigger" href="#demo">Demo</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link js-scroll-trigger" href="#pricing">Pricing</a>
@@ -65,7 +68,7 @@
 							<a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="http://accounts.sendcnc.com/"><b>Login</b></a>
+							<a class="nav-link" href="http://accounts.kaizendesk.com/"><b>Login</b></a>
 						</li>
 					</ul>
 				</div>
@@ -75,19 +78,81 @@
 		<header class="masthead">
 			<div class="header-content">
 				<div class="header-content-inner">
-					<h1 id="homeHeading">A CRM for Manufacturers</h1>
-					<hr>
-					<p>Easy uploading, quoting, and invoicing for engineering jobs.</p>
-					<a class="btn btn-primary btn-xl js-scroll-trigger" href="#preregister">Sign Up</a>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<h1 id="homeHeading">The CRM built for Manufacturers</h1>
+					<h2>Purchasing, Quoting, and Invoicing Made Simple</h2>
+					<br>
+					<br>
+					<a class="btn btn-primary btn-xl js-scroll-trigger" href="#features">Learn More</a>
 				</div>
 			</div>
 		</header>
 
-		<section class="bg-blue" id="preregister">
+		<section id="features">
+			<br>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<h2 class="section-heading">Features</h2>
+						<hr class="primary">
+						<h4 class="section-subheading">Take back valuable time lost to paperwork.</h4>
+					</div>
+				</div>
+			</div>
+			<br>
+			<br>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 col-md-6 text-center">
+						<div class="service-box">
+							<i class="fa fa-4x fa-cloud-upload text-primary animated zoomIn wow"></i>
+							<h4>Seamless Uploads</h4>
+							<p class="text-muted">Seamlessly accept drawing and 3D model uploads.</p>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 text-center">
+						<div class="service-box">
+							<i class="fa fa-4x fa-paper-plane text-primary animated zoomIn wow"  data-wow-delay="250ms"></i>
+							<h4>Easy Quotes</h4>
+							<p class="text-muted">Price parts and send quotes with a few simple clicks.</p>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 text-center">
+						<div class="service-box">
+							<i class="fa fa-4x fa-desktop text-primary animated zoomIn wow" data-wow-delay="500ms"></i>
+							<h4>Organize Jobs</h4>
+							<p class="text-muted">Store and organize jobs, drawings, and lot history records.</p>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 text-center">
+						<div class="service-box">
+							<i class="fa fa-4x fa-credit-card text-primary animated zoomIn wow" data-wow-delay="750ms"></i>
+							<h4>Accept Payments</h4>
+							<p class="text-muted">Send invoices and process credit cards online.</p>
+						</div>
+					</div>
+				</div>
+				<br>
+				<br>
+				<br>
+				<div class="row">
+					<div class="col-xs-12 mx-auto text-center">
+						<a class="btn btn-primary btn-xl js-scroll-trigger" href="#pricing">Get Started</a>
+					</div>
+				</div>
+			</div>
+			<br>
+		</section>
+
+		<section class="bg-blue" id="demo">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-8 mx-auto text-center">
-						<h2 class="section-heading text-white">Signup</h2>
+						<h2 class="section-heading text-white">Demo Request</h2>
 						<hr class="light">
 						<!-- Display the countdown timer in an element -->
 						<!--<h1 class="text-white" id="demo"></h1>-->
@@ -118,50 +183,6 @@
 			</div>
 		</section>
 
-		<section id="features">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12 text-center">
-						<h2 class="section-heading">Features</h2>
-						<hr class="primary">
-					</div>
-				</div>
-			</div>
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-3 col-md-6 text-center">
-						<div class="service-box">
-							<i class="fa fa-4x fa-cloud-upload text-primary animated zoomIn wow"></i>
-							<h3>Seamless Uploads</h3>
-							<p class="text-muted">Seamlessly accept drawing and 3D model uploads.</p>
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-6 text-center">
-						<div class="service-box">
-							<i class="fa fa-4x fa-paper-plane text-primary animated zoomIn wow"  data-wow-delay="250ms"></i>
-							<h3>Easy Quotes</h3>
-							<p class="text-muted">Price parts and send quotes with a few simple clicks.</p>
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-6 text-center">
-						<div class="service-box">
-							<i class="fa fa-4x fa-desktop text-primary animated zoomIn wow" data-wow-delay="500ms"></i>
-							<h3>Organize Jobs</h3>
-							<p class="text-muted">Store and organize jobs, drawings, and lot history records.</p>
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-6 text-center">
-						<div class="service-box">
-							<i class="fa fa-4x fa-credit-card text-primary animated zoomIn wow" data-wow-delay="750ms"></i>
-							<h3>Accept Payments</h3>
-							<p class="text-muted">Send invoices and process credit cards online.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-
-
 		<section id="pricing">
 			<div class="container">
 				<div class="row">
@@ -175,7 +196,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="offset-lg-1 col-lg-5 text-center">
-						<div class="card animated fadeIn wow"  data-wow-delay="250ms">
+						<div class="card animated fadeIn wow">
 							<div class="card-body bg-blue text-white">
 								<h4 class="card-title">Basic Plan</h4>
 								<p class="card-text price">$100<small>/mo</small></p>
@@ -187,12 +208,12 @@
 							</ul>
 							<div class="card-body">
 								<p class="card-text text-muted">Limited offer availability.<br>Register now to claim.</p>
-								<a href="https://accounts.sendcnc.com/signup" class="card-link btn btn-primary js-scroll-trigger">Register</a>
+								<a href="https://accounts.kaizendesk.com/signup" class="card-link btn btn-primary js-scroll-trigger">Register</a>
 							</div>
 						</div>
 					</div>
 					<div class="col-lg-5 text-center">
-						<div class="card animated fadeIn wow"  data-wow-delay="550ms">
+						<div class="card animated fadeIn wow"  data-wow-delay="200ms">
 							<div class="card-body">
 								<h4 class="card-title">Enterprise</h4>
 								<p class="card-text price">Contact</p>
@@ -214,7 +235,6 @@
 
 			</div>
 		</section>
-
 
 		<!--<section class="p-0" id="portfolio">
 			<div class="container-fluid">
@@ -316,8 +336,8 @@
 		<section id="contact" class="call-to-action bg-dark">
 			<div class="container text-center">
 				<h2>Questions? Don't hesitate to contact us!</h2>
-				<a class="btn btn-default btn-xl animated zoomIn wow" href="mailto:info@sendcnc.com?subject=Product Inquiry"><i class="fa fa-envelope-o"></i> info@sendcnc.com</a><br><br>
-				SendCnC <i class="fa fa-copyright" aria-hidden="true"></i> 2018
+				<a class="btn btn-default btn-xl" href="mailto:info@initialapps.com?subject=Product Inquiry"><i class="fa fa-envelope-o"></i> info@initialapps.com</a><br><br>
+				KaizenDesk <i class="fa fa-copyright" aria-hidden="true"></i> 2018
 			</div>
 		</section>
 
@@ -332,7 +352,7 @@
 		<script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
 		<!-- Custom scripts for this template -->
-		<script src="js/creative.min.js"></script>
+		<script src="js/creative.js"></script>
 		<script src="js/wow.min.js"></script>
 		<script>
 			new WOW().init();
@@ -345,28 +365,28 @@
 		// Update the count down every 1 second
 		var x = setInterval(function() {
 		
-  		// Get todays date and time
-  		var now = new Date().getTime();
-		
-  		// Find the distance between now an the count down date
-  		var distance = countDownDate - now;
-		
-  		// Time calculations for days, hours, minutes and seconds
-  		var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  		var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  		var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  		var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-		
-  		// Display the result in the element with id="demo"
-  		/*document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-  		+ minutes + "m " + seconds + "s ";*/
-		
-  		// If the count down is finished, write some text 
-  		/*if (distance < 0) {
-    		clearInterval(x);
-    		document.getElementById("demo").innerHTML = "EXPIRED";
-  		}
-		}, 1000);*/
+  			// Get todays date and time
+  			var now = new Date().getTime();
+			
+  			// Find the distance between now an the count down date
+  			var distance = countDownDate - now;
+			
+  			// Time calculations for days, hours, minutes and seconds
+  			var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  			var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  			var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  			var seconds = Math.floor((distance % (1000 * 60)) / (1000));
+			
+  			// Display the result in the element with id="demo"
+  			/*document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  			+ minutes + "m " + seconds + "s ";*/
+			
+  			// If the count down is finished, write some text 
+  			/*if (distance < 0) {
+    			clearInterval(x);
+    			document.getElementById("demo").innerHTML = "EXPIRED";
+  			}*/
+		}, 1000);
 		</script>
 
 
