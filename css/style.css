@@ -82,12 +82,12 @@ header.masthead .header-content .header-content-inner p {
   font-size:25%;
 }
 
-/** Demo **/
-#demo h2 {
+/**  **/
+#lead-growth h2 {
   font-weight: 700;
 }
 
-#demo .form-input-text {
+#lead-growth .form-input-text {
   padding: 15px;
   border: none;
   border-radius: 26px;
