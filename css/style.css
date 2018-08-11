@@ -78,11 +78,23 @@ header.masthead .header-content .header-content-inner p {
   line-height: 1.25;
   margin-bottom: 0px;
 }
-#pricing p.price small{
+#pricing p.price small {
   font-size:25%;
 }
+#pricing .kzd-starter .card-header,
+#pricing .kzd-starter .card-link {
+  background-color: #11a9c1;
+}
+#pricing .kzd-basic .card-header, 
+#pricing .kzd-basic .card-link {
+  background-color: #2C0E64;
+}
 
-/**  **/
+#pricing .kzd-enterprize .card-link {
+  background-color: #333333;
+}
+
+/** Leads **/
 #lead-growth h2 {
   font-weight: 700;
 }
