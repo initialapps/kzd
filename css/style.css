@@ -38,8 +38,17 @@ input {
 	padding: 0;
 }
 .section-subheading {
- font-family: 'Tinos', serif;
- font-style: italic;	
+	font-family: 'Tinos', serif;
+	font-style: italic;	
+}
+
+/** Google Translate **/
+.goog-te-banner-frame.skiptranslate {
+	bottom: 0px;
+	top: unset;
+} 
+body { 
+	top: 0px !important; 
 }
 
 /** Navigation **/
